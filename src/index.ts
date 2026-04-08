@@ -1,4 +1,6 @@
 import {
+  Select,
+  SelectItem,
   NextUIProvider,
   Button,
   Card,
@@ -31,6 +33,8 @@ import {
 
 // Export individually for programmatic React usage
 export {
+  Select,
+  SelectItem,
   NextUIProvider,
   Button,
   Card,
@@ -64,6 +68,8 @@ export {
 // Unified UI Registry mapping tailored precisely for the Agent K Renderer
 // This maps the {"type": "Button"} JSON spec string to the actual React component.
 export const AgentFAtoms: Record<string, any> = {
+  Select,
+  SelectItem,
   NextUIProvider,
   Button,
   Card,
