@@ -93,3 +93,6 @@ export const AgentFAtoms: Record<string, any> = {
   Badge,
   Chip
 };
+
+// Export Figma elements namespace
+export * as FigmaAtoms from './figma';
